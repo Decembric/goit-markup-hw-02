@@ -59,6 +59,10 @@ body {
   color: var(--hover-text-color);
 }
 
+.mail {
+   color: var(--primary-text-color);
+}
+
 /* --------Секция герой--------- */
 
 .hero {
@@ -171,6 +175,7 @@ body {
 }
 
 .footer-address {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -230,7 +235,6 @@ cursor: pointer;
 }
 
 .portfolio-image-name {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
